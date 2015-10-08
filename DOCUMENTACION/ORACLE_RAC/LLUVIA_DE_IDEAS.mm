@@ -13,8 +13,7 @@
       ORACLE RAC
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1444148559368" ID="ID_1940860038" MODIFIED="1444150055798" POSITION="right">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -28,13 +27,44 @@
       CONSIDERACIONES CON RESPECTO A LA PASADA DE EQUIPO
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1444150055779" ID="ID_1127562784" MODIFIED="1444150055779" TEXT="">
 <node CREATED="1444157484255" ID="ID_1120297432" MODIFIED="1444157497633" TEXT="SCRIPTS DEL SERVIDOR">
 <node CREATED="1444157504007" ID="ID_1384068535" MODIFIED="1444157510866" TEXT="TNS-NAMES"/>
 <node CREATED="1444157511230" ID="ID_820232843" MODIFIED="1444157514019" TEXT="SCRIPTS"/>
 <node CREATED="1444157514710" ID="ID_178710467" MODIFIED="1444157523315" TEXT="SCRIPTS CRON"/>
+</node>
+<node CREATED="1444314261300" ID="ID_209678725" MODIFIED="1444315819684">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      GRANT EXECUTE ON SYS.DBMS_CRYPTO TO SIS;
+    </p>
+    <p>
+      GRANT EXECUTE ON SYS.DBMS_PIPE TO SIS;
+    </p>
+    <p>
+      GRANT EXECUTE ON SYS.DBMS_UTILITY TO SIS;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1444311795311" ID="ID_275656433" MODIFIED="1444311921798">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      REVISAR QUE SE PASEN TODOS LOS ESQUEMAS EN EL RESPALDO
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 <node CREATED="1444150227440" ID="ID_1896870452" MODIFIED="1444150234925" TEXT="CONFIGURACION DE CLIENTES">
 <node CREATED="1444155601955" ID="ID_123640571" MODIFIED="1444155616832" TEXT="SI SE CAMBIA EL TNSNAMES">
@@ -51,8 +81,7 @@
       hasta volver a&#160;&#160;cambiar los TNS
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1444155726642" ID="ID_334403689" MODIFIED="1444155738846" TEXT="SI NO SE CAMBIA EL TNSNAMES">
@@ -66,8 +95,7 @@
       Se podr&#237;a&#160;probar las aplicaciones
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -112,8 +140,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1444156555476" ID="ID_157261398" MODIFIED="1444156557097" TEXT="NO">
@@ -140,8 +167,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -157,8 +183,7 @@
       Se podr&#237;a dar problema si este contiene alguna informaci&#243;n de datos externos importantes
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1444150099056" ID="ID_774584308" MODIFIED="1444150101237" TEXT="INDICES"/>
@@ -176,11 +201,10 @@
       Se debe hacer un inventario de los packages del SIS y su estado
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_14907778" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1163901805" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_14907778" ENDARROW="Default" ENDINCLINATION="694;0;" ID="Arrow_ID_1921277947" SOURCE="ID_152769780" STARTARROW="None" STARTINCLINATION="694;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_14907778" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1163901805" SOURCE="ID_14907778" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_14907778" ENDARROW="Default" ENDINCLINATION="694;0;" ID="Arrow_ID_1921277947" SOURCE="ID_152769780" STARTARROW="None" STARTINCLINATION="694;0;"/>
 </node>
 </node>
 <node CREATED="1444150184976" ID="ID_152769780" MODIFIED="1444157256382" TEXT="PROCEDURES">
@@ -197,8 +221,7 @@
       En el respaldo se obtiene una copia de estos, por ello no habr&#237;a novedad
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1444150219695" ID="ID_564448580" MODIFIED="1444150221468" TEXT="ROLES">
@@ -216,8 +239,7 @@
       Se debe realizar un inventario de&#160;objetos y estado en el SIS
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1444150267360" ID="ID_204961325" MODIFIED="1444150270364" TEXT="TABLESPACES">
@@ -231,8 +253,7 @@
       Antes de inicio de la importaci&#243;n&#160;se debe tener los tablespaces generados
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1444150280376" ID="ID_1958416274" MODIFIED="1444150282819" TEXT="TRIGGERS"/>
@@ -249,8 +270,7 @@
       Se debe tener una copia y pruebas de los dblinks que funcionan actualmente
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1444150040210" HGAP="90" ID="ID_1481121043" MODIFIED="1444157442093" VSHIFT="-198">
 <richcontent TYPE="NODE"><html>
   <head>
